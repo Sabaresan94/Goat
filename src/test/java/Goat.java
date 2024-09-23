@@ -7,10 +7,19 @@ public class Goat {
 	private void actress() {
 		System.out.println("singapoor sallon heroin");
 	}
+	private void comedian() {
+		System.out.println("premji");
+	}
+	private void villian() {
+		System.out.println("chinna thalapathy");
+
+	}
 	public static void main(String[] args) {
 		Goat g=new Goat();
 		g.actor();
 		g.actress();
+		g.comedian();
+		g.villian();
 	}
 
 }
